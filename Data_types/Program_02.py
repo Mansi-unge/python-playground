@@ -7,6 +7,7 @@ Steps:
 1.int("25"), float("25")
 2.Print both results.
 """
+# code :
 
 value = input("enter any value : ")
 value_int = int(value)

@@ -9,6 +9,8 @@ Steps:
 3.Print the result.
 """
 
+# code :
+
 d_1 = (input("enter any value : "))
 print(type(d_1))
 

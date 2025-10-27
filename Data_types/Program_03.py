@@ -8,6 +8,8 @@ Try each expression.
 Observe which works and why.
 """
 
+# code :
+
 print(5+2.0)
 print(True + 10)
 print("5" + "2")
