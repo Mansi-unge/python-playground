@@ -32,3 +32,12 @@ print("list after removing 2 from it :",li)
 # reversing the list 
 li.reverse()
 print("reversed list :",li)
+
+"""
+OUTPUT :
+orginal list : [1, 2, 3]
+list after appending 4 :  [1, 2, 3, 4]
+list after inserting 0 at beginning : [0, 1, 2, 3, 4]
+list after removing 2 from it : [0, 1, 3, 4]
+reversed list : [4, 3, 1, 0]
+"""
