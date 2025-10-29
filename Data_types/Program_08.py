@@ -35,3 +35,11 @@ print("values in student dictionary are :", dict_values)
 # getting the dictionary items 
 dict_items = student.items()
 print("items in student dictionary are :",dict_items)
+
+
+"""
+OUTPUT :
+keys in student dictionary are : dict_keys(['name', 'age', 'marks'])
+values in student dictionary are : dict_values(['mansi', '22', '85'])
+items in student dictionary are : dict_items([('name', 'mansi'), ('age', '22'), ('marks', '85')])
+"""
