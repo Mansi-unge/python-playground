@@ -1,0 +1,1 @@
+# Write a program to find all substrings of a given string.
