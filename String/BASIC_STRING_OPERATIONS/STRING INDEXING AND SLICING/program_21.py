@@ -1,0 +1,1 @@
+# Write a program to print each character of a string on a new line.

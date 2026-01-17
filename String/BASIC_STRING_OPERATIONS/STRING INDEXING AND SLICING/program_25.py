@@ -1,0 +1,1 @@
+# Write a program to repeat a string n times.
