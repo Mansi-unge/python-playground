@@ -1,0 +1,1 @@
+# Write a program to print alternate characters of a string.

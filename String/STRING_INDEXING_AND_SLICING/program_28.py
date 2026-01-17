@@ -1,0 +1,1 @@
+# Write a program to extract first half and second half of a string.

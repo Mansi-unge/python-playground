@@ -1,0 +1,1 @@
+# Write a program to join words of a list into a single string.
