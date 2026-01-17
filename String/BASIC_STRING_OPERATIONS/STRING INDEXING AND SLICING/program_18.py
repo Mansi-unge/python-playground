@@ -1,1 +1,0 @@
-# Write a program to input a string and display it.
