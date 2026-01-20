@@ -47,41 +47,48 @@
 
 # Print the converted list.
 
-my_cart = ["apples","bananas","milk"]
+# Create grocery list
+my_cart = ["apples", "bananas", "milk"]
 print(my_cart)
 
+# Add item at end
 my_cart.append("bread")
 print(my_cart)
 
-my_cart.insert(0,"ketchup")
+# Insert item at beginning
+my_cart.insert(0, "ketchup")
 print(my_cart)
 
+# Remove specific item
 my_cart.remove("bananas")
 print(my_cart)
 
+# Remove last item and store it
 removed_item = my_cart.pop()
-print(removed_item)
+print("Removed item:", removed_item)
 
-my_cart.extend(["rice","butter"])
+# Extend list
+my_cart.extend(["rice", "butter"])
 print(my_cart)
 
+# Sort alphabetically
 my_cart.sort()
 print(my_cart)
 
+# Reverse list
 my_cart.reverse()
 print(my_cart)
 
-list2 = ["juice","jam"]
+# Concatenate with another list
+list2 = ["juice", "jam"]
+combined_list = my_cart + list2
+print(combined_list)
 
-my_cart = my_cart + list2
-print(my_cart)
-
+# Duplicate list twice
 duplicate_my_cart = my_cart * 2
 print(duplicate_my_cart)
 
+# Convert string to list
 string = "tomato cucumber spinach"
-string = string.split()
-print(string)
-
-
-
+converted_list = string.split()
+print(converted_list)
