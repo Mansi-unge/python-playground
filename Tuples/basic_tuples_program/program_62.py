@@ -1,0 +1,1 @@
+# Write a program to access the first, last, and middle elements of a tuple.

@@ -1,0 +1,1 @@
+# Write a program to create a single-element tuple and print its type.

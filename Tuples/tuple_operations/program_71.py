@@ -1,0 +1,1 @@
+# Write a program to count occurrences of an element in a tuple.

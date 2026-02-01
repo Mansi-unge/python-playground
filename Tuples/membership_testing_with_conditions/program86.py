@@ -1,0 +1,1 @@
+# Write a program to count how many elements from a list exist in a tuple.

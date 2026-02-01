@@ -1,0 +1,1 @@
+# Write a program to print all elements of a tuple using a loop.
