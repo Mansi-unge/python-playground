@@ -27,3 +27,4 @@ if total_purchase > 1000:
 
 if customer_age >= 60:
   print("Senior Citizen")
+  

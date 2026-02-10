@@ -12,3 +12,17 @@
 # If the distance is greater than 5 km but not more than 10 km, return the string: "Delivery charge: 50"
 
 # If the distance is more than 10 km, return the string: "Delivery not available for your location."
+
+distance = float(input("Enter your distance : "))
+
+def calculate_delivery_charge(distance: float) -> str:
+  if distance <= 2:
+    return "Delivery charge: 0"
+  elif distance <= 5:
+    return "Delivery charge: 30"
+  elif distance <= 10:
+    return "Delivery charge: 50"
+  else:
+    return "Delivery not available for your location."
+
+print(calculate_delivery_charge(distance))
