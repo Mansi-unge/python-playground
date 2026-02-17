@@ -15,10 +15,10 @@
 # This function will be tested automatically. 
 # Do not change the function name or parameters.
 def mark_completed_tasks(tasks: list[str]) -> list[str]:
-  task = []
-  for task in tasks:
-    tasks.append("Completed: {task}")
-  return task
+    completed_tasks = []
+    for task in tasks:
+        completed_tasks.append(f"Completed: {task}")
+    return completed_tasks
 
 
 tasks = ["wake_up at 5","meditation","1 hr of self study","go to college","evening walk"]
