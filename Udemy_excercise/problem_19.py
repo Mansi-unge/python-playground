@@ -60,3 +60,5 @@ def process_transactions(transactions: list[int]) -> int:
     loyalty_points += points_earned
     
     return total
+
+print(process_transactions([1500]))
