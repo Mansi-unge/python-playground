@@ -38,6 +38,6 @@ def calculate_grade(score):
 
 def generate_student_report(name, score):
   grade = calculate_grade(score)
-  print(f"{name} has scored {score} and received grade {grade}")
+  return f"{name} has scored {score} and received grade {grade}"
 
-generate_student_report("Aman",80)
+print(generate_student_report("Aman",80))
